@@ -6,11 +6,13 @@ import "./global.css";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Form />
-      <Resultado />
-    </>
+    <div className="container">
+      <div className="content">
+        <Header />
+        <Form />
+        <Resultado />
+      </div>
+    </div>
   );
 }
 

@@ -1,0 +1,35 @@
+.form {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  text-align: start;
+  font-size: 20px;
+}
+
+.formInput {
+  margin-bottom: 8px;
+  background-color: var(--cor4);
+  padding: 8px;
+  border: none;
+  color: var(--cor5);
+}
+
+.formButton {
+  margin-top: 8px;
+  background-color: var(--cor2);
+  padding: 8px;
+  border: none;
+  color: var(--cor5);
+  cursor: pointer;
+  font-size: 20px;
+
+  transition: background-color 0.5s ease;
+}
+
+.formButton:hover {
+  background-color: var(--cor1);
+}
