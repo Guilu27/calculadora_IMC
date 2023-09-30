@@ -19,6 +19,7 @@
 }
 
 .formButton {
+  margin: 0 auto;
   margin-top: 8px;
   background-color: var(--cor2);
   padding: 8px;
@@ -28,6 +29,9 @@
   font-size: 20px;
 
   transition: background-color 0.5s ease;
+
+  border-radius: 8px;
+  width: 30%;
 }
 
 .formButton:hover {

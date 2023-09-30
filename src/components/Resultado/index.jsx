@@ -1,10 +1,12 @@
 import styles from "./resultado.module.css";
 
-function Resultado() {
+function Resultado({ resultado, mensagem, resultadoClass }) {
+  const classeCSS = `${styles.resultado} ${resultadoClass}`;
+
   return (
-    <div className={styles.resultado}>
-      <h2 className={styles.resultadoIMC}>26,4</h2>
-      <p className={styles.resultadoTexto}>Voce esta acima do peso</p>
+    <div className={classeCSS}>
+      <h2 className={styles.resultadoIMC}>Seu IMC é: {resultado} Kg/m2</h2>
+      <p className={styles.resultadoTexto}>{mensagem}</p>
     </div>
   );
 }
